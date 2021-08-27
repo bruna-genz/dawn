@@ -30,19 +30,16 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
           }
         },
         "description": {
@@ -52,7 +49,6 @@
         },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
           }
         }
@@ -69,60 +65,16 @@
         "share"
       ],
       "settings": {
-        "enable_sticky_info": true,
-        "enable_video_looping": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
-    "162871303901396aa5": {
-      "type": "image-with-text",
-      "blocks": {
-        "162871303901396aa5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "162871303901396aa5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "162871303901396aa5-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "162871303901396aa5-0",
-        "162871303901396aa5-1",
-        "162871303901396aa5-2"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.my_fields.product_dimensions.value }}",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
       }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "162871303901396aa5"
+    "product-recommendations"
   ]
 }
