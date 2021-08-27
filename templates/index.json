@@ -48,6 +48,32 @@
         "show_vendor": false
       }
     },
+    "1630088436bc3a0d98": {
+      "type": "rich-text",
+      "blocks": {
+        "1630088436bc3a0d98-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Something",
+            "heading_size": "h1"
+          }
+        },
+        "1630088436bc3a0d98-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630088436bc3a0d98-0",
+        "1630088436bc3a0d98-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "image_text": {
       "type": "image-with-text",
       "blocks": {
@@ -128,6 +154,7 @@
   "order": [
     "image_banner",
     "featured_products",
+    "1630088436bc3a0d98",
     "image_text",
     "1630088427e0523a29"
   ]
