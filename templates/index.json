@@ -82,11 +82,90 @@
         "color_scheme": "accent-2",
         "layout": "image_first"
       }
+    },
+    "16310434331ef1b0a9": {
+      "type": "collection-list",
+      "blocks": {
+        "16310434326511eac0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "brunas-collection"
+          }
+        },
+        "16310434326511eac0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fall-collection"
+          }
+        },
+        "16310434326511eac0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "16310434326511eac0-0",
+        "16310434326511eac0-1",
+        "16310434326511eac0-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "16310435133a4e7d27": {
+      "type": "collage",
+      "blocks": {
+        "16310435131e41cde2-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "brunas-collection",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "16310435131e41cde2-1": {
+          "type": "product",
+          "settings": {
+            "product": "classic-varsity-top",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "38828667-d3bb-4846-a8e0-db77c95646cb": {
+          "type": "product",
+          "settings": {
+            "product": "led-high-tops",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "16310435131e41cde2-2",
+        "16310435131e41cde2-1",
+        "38828667-d3bb-4846-a8e0-db77c95646cb"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "16310434331ef1b0a9",
+    "16310435133a4e7d27"
   ]
 }
